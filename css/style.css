@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: beige;
 }
 
 img {
@@ -10,4 +11,23 @@ img {
 a {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.row {
+    display: block;
+    padding-bottom: 40px;
 }
