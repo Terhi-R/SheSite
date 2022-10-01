@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    margin: 60px auto;
+
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    opacity: 0.7;
+}
+
+p {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.intro {
+    background: none;
+    font-style: italic;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.contact-link:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: white;
+}
+
+.about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 600px !important;
+    height: 400px !important;
+    object-fit: contain !important;
+}
+
+.about-image {
+    border-radius: 8px;
+}
+
+.about-box {
+    background: var(--secondary-color);
+    border-radius: 8px;
+ 
+}
+
+
+.button {
+    font-size: 12px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    width: 180px;
+
+}
+
+.button:hover {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background: white;
+}
+
+@media (max-width: 768px) {
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navigation-links {
+        flex-direction: row;
+    }
+}
+
+
+
+

@@ -2,19 +2,171 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Mountains images and outdoor life in Norway"
-    />
+    <meta name="description" content="Personal front-end developer portfolio" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mountains and outdoor life in Norway</title>
-    <link rel="Stylesheet" href="/css/style.css" />
+    <title>Terhi Raudaskoski - Front-End Developer portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Trip to Lofoten</h1>
-    <p>Hi there, this is my page 🌟</p>
-    <a href="/contact.html">Contact page</a>
-    <a href="/about.html">Photo</a>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand d-none d-md-block flex-end" href="#">Terhi R.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#"
+              title="Home page"
+              >Home</a
+            >
+
+            <a class="nav-link" href="/about.html" title="About me">About me</a>
+            <a class="nav-link" href="/about.html#contact" title="Contact me"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+    <h2 class="fs-2">👋 Hi I am</h2>
+    <h1 class="fs-1">Terhi Raudaskoski</h1>
+    <h3 class="fs-3">🇫🇮 Front-end developer, based in Norway 🇳🇴</h3>
+    <div class="navigation-links">
+      <a href="/about.html#contact" class="contact-link" title="Contact me"
+        >Contact me</a
+      >
+      <a href="/about.html" class="about-link" title="About me">About me</a>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="container-md">
+      <div class="row pb-3">
+        <div class="col-sm-6">
+          <a href="https://playful-hamster-204554.netlify.app/" target="_blank">
+            <img
+              src="/images/weatherApp.png"
+              class="img-fluid border border-2 shadow-sm rounded"
+              alt="Weather Application"
+            />
+          </a>
+        </div>
+
+        <div class="col-sm-6 py-2 px-4">
+          <h4 class="py-2">Weather App</h4>
+          <p class="d-none d-md-block fst-italic">
+            Weather is the state of the atmosphere, describing for example the
+            degree to which it is hot or cold, wet or dry, calm or stormy, clear
+            or cloudy. On Earth, most weather phenomena occur in the lowest
+            layer of the planet's atmosphere, the troposphere, just below the
+            stratosphere. Weather refers to day-to-day temperature,
+            precipitation, and other atmospheric conditions, whereas climate is
+            the term for the averaging of atmospheric conditions over longer
+            periods of time.
+            <a
+              href="https://en.wikipedia.org/wiki/Weather"
+              class="text-decoration-none"
+              target="_blank"
+              >Source</a
+            >
+            <span class="d-block"></span>
+            <a href="#" class="button">Launch Weather App</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row pb-3">
+        <div class="col-sm-6">
+          <img
+            src="/images/yoga.png"
+            class="img-fluid border border-2 shadow-sm rounded"
+            alt="About yoga"
+          />
+        </div>
+        <div class="col-sm-6 py-2 px-4">
+          <h4 class="py-2">Yoga App</h4>
+          <p class="d-none d-md-block fst-italic">
+            Yoga (/ˈjoʊɡə/ (listen);[1] Sanskrit: योग, lit. 'yoke' or 'union'
+            pronounced [joːɡɐ]) is a group of physical, mental, and spiritual
+            practices or disciplines which originated in ancient India and aim
+            to control (yoke) and still the mind, recognizing a detached
+            witness-consciousness untouched by the mind (Chitta) and mundane
+            suffering (Duḥkha). There is a wide variety of schools of yoga,
+            practices, and goals in Hinduism, Buddhism, and Jainism, and
+            traditional and modern yoga is practiced worldwide.
+            <a
+              href="https://en.wikipedia.org/wiki/Yoga"
+              class="text-decoration-none"
+              target="_blank"
+              >Source</a
+            >
+            <span class="d-block"></span>
+            <a href="#" class="button">Launch Yoga App</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row pb-3">
+        <div class="col-sm-6">
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid border border-2 shadow-sm rounded"
+            alt="Yogurt page"
+          />
+        </div>
+        <div class="col-sm-6 py-2 px-4">
+          <h4 class="py-2">Yogurt page</h4>
+          <p class="d-none d-md-block fst-italic">
+            Yogurt (UK: /ˈjɒɡət/; US: /ˈjoʊɡərt/, from Greek: μακάρτι, Turkish:
+            yoğurmak, also spelled yoghurt, yogourt or yoghourt) is a food
+            produced by bacterial fermentation of milk. The bacteria used to
+            make yogurt are known as yogurt cultures. Fermentation of sugars in
+            the milk by these bacteria produces lactic acid, which acts on milk
+            protein to give yogurt its texture and characteristic tart flavor.
+            <a
+              href="https://en.wikipedia.org/wiki/Yogurt"
+              class="text-decoration-none"
+              target="_blank"
+              >Source</a
+            >
+            <span class="d-block"></span>
+            <a href="#" class="button">Launch Yogurt page</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
   </body>
 </html>
